@@ -1,0 +1,136 @@
+{
+  "RequestComplaints": {
+    "ArrayOfReportComplaintEntity": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "ReportComplaintEntity": {
+        "ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+        "Title": "Test 1",
+        "CaseKindID": "e86f15b1-4c38-dd11-a568-001e0b8014eb",
+        "AutomaticCode": "55-1-29112016",
+        "ManualCode": "0",
+        "TypeExamID": "5a4fbafc-4001-4822-a1b4-791bf4640c16",
+        "SubTypeID": "442cae5a-5265-de11-8f43-002264faff6e",
+        "RequestFromId": "2e8f7a2e-4eae-4a6d-9849-951b70def369",
+        "CaseCategoryID": "a2fb837f-f36e-45a9-89be-e00432243546",
+        "Nature": "test 3",
+        "Volumes": "1",
+        "Annex": "test 3",
+        "StateFee": "200.00",
+        "StateFeeReasonId": "6f3d8c8b-3e63-469f-9845-412651c70e02",
+        "Comments": "test 3",
+        "Created": "2016-11-29T16:40:35.63",
+        "CurrentState": "0",
+        "CourtID": "01010101-8B90-DD11-AB9B-001E0B8014EB",
+        "ReportIsActive": "false",
+        "TransferedDate": "2016-11-29T16:40:01.0403743+03:00",
+        "Main_ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de"
+      }
+    },
+    "ArrayOfReportComplaintCategories": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "ReportComplaintCategories": [
+        {
+          "ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+          "CategoryID": "ac7dbc3a-a8f9-44a8-a072-6a991980a12f",
+          "CategoryType": "0",
+          "DeletedDate": { "-xsi:nil": "true" }
+        },
+        {
+          "ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+          "CategoryID": "03fbc7f0-0419-4c93-8bf9-49adc5936d35",
+          "CategoryType": "0",
+          "DeletedDate": { "-xsi:nil": "true" }
+        },
+        {
+          "ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+          "CategoryID": "ba36f536-49d3-4184-8244-ae340bf0205b",
+          "CategoryType": "0",
+          "DeletedDate": { "-xsi:nil": "true" }
+        },
+        {
+          "ReportComplaintID": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+          "CategoryID": "a2fb837f-f36e-45a9-89be-e00432243546",
+          "CategoryType": "1",
+          "DeletedDate": { "-xsi:nil": "true" }
+        }
+      ]
+    },
+    "ArrayOfPerson": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "Person": {
+        "Id": "f5742a39-8978-e511-b93c-005056a56d54",
+        "PersonPersons_Id": "a79445a3-8778-e511-b93c-005056a56d54",
+        "PersonRegionID": "00000000-0000-0000-0000-000000000000",
+        "PersonEducationID": "00000000-0000-0000-0000-000000000000",
+        "PersonOccupationID": "00000000-0000-0000-0000-000000000000",
+        "PersonCitizenshipID": "00000000-0000-0000-0000-000000000000",
+        "PersonCatID": "00000000-0000-0000-0000-000000000000",
+        "MinorType": "00000000-0000-0000-0000-000000000000",
+        "motivnescolarizare": "00000000-0000-0000-0000-000000000000",
+        "PersonLastName": "Costica",
+        "PersonFirstName": "Cotelea",
+        "PersonGender": "M",
+        "PersonType": "P",
+        "PersonDateOfBirth": { "-xsi:nil": "true" },
+        "PersonParentDate": { "-xsi:nil": "true" },
+        "PersonCreationDate": "2016-11-18T09:50:47.96"
+      }
+    },
+    "ArrayOfParty": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "Party": {
+        "partyGetFreeJudAssistance": "false",
+        "PartyUserId": "00000000-0000-0000-0000-000000000000",
+        "Id": "86215366-2d2e-405e-90dc-4a55107bfcf7",
+        "Person": { "Id": "f5742a39-8978-e511-b93c-005056a56d54" },
+        "PartyTypePartyID": "73800e74-20e9-dd11-a55e-001e0b8014eb",
+        "PartyTypePartySecondaryID": "00000000-0000-0000-0000-000000000000",
+        "PartyDateAdd": "2015-10-22T09:50:47.96",
+        "PartyDateEnd": { "-xsi:nil": "true" }
+      }
+    },
+    "ArrayOfFile": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "File": {
+        "Id": "cd0a2b79-2b9c-e611-80c8-000c29c7c29e",
+        "EntityId": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+        "Name": "5. Plan Calendaristic de realizare a proiectului.pdf",
+        "Title": "Test",
+        "Subject": "wed",
+        "Author": "Ion Malai",
+        "RegisteredOn": "2016-11-18T12:54:47",
+        "CreatedOn": "2016-11-18T12:54:47",
+        "Source": "emitent",
+        "SourceProtocolNumber": "0001243",
+        "LanguageId": { "-xsi:nil": "true" },
+        "Language": {
+          "Id": "58dc57db-b216-dd11-aa1c-001e0b8014eb",
+          "Code": "RO",
+          "Name": "Romanian",
+          "IsSystem": "true"
+        },
+        "InternalProtocolNumber": "84304637-948e-4c6d-844e-29a8906fdd7a 27.10.20162016-10-27 12:54:47.000",
+        "ProtocolNumber": "0001233",
+        "ContentType": "binary/octet-stream",
+        "Length": "950251",
+        "IsSystem": "false",
+        "Version": "AAAAAAAAGH0=",
+        "ExpeditionTypeId": { "-xsi:nil": "true" },
+        "TypeId": { "-xsi:nil": "true" }
+      }
+    },
+    "ArrayOfReportComplaintState": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "ReportComplaintState": {
+        "Id": "0e9f6978-c4f6-4a62-a09d-c53e3e48c2de",
+        "Active": "1",
+        "StateFlag": "0",
+        "SelectedDate": "2016-11-18T00:00:00",
+        "Created": "2016-11-18T00:00:00",
+        "Comments": "test",
+        "ArticleID": "00000000-0000-0000-0000-000000000000",
+        "Index": "0"
+      }
+    }
+  }
+}
